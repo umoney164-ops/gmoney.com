@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>สินเชื่อธนาคารประชาชน — ติดต่อ LINE</title>
+    <meta name="description" content="ดอกเบี้ยเริ่มต้น 0.50% ต่อเดือน ผ่อนสบาย สูงสุด 8 ปี วงเงิน 200,000 บาท">
+    <style>
+
+        :root { --maxw: 780px; --radius: 14px; --shadow: 0 10px 25px rgba(0,0,0,.08); }
+        * { box-sizing: border-box; }
+        body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:#FE439D; color:#1a1a1a; }
+        .wrap { max-width: var(--maxw); margin: 24px auto 96px; padding: 0 16px; }
+        .card { background:#fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow:hidden; margin-bottom:18px; }
+        .click-img { display:block; line-height:0; }
+        .click-img img { width:100%; height:auto; display:block; }
+        .content { background:#fff; border-radius: var(--radius); box-shadow: var(--shadow); padding:20px; }
+        h1{ font-size:1.25rem; margin:0 0 6px; }
+        .bullets{ margin:10px 0 0; padding-left:20px; }
+        .cta { display:inline-block; margin-top:14px; padding:14px 18px; border-radius:12px; background:#06C755; color:#fff; text-decoration:none; font-weight:700; box-shadow:0 8px 20px rgba(6,199,85,.35); }
+        .cta:active { transform: translateY(1px); }
+        /* ปุ่ม LINE ลอยติดขอบล่าง */
+        .floating { position:fixed; left:50%; transform:translateX(-50%); bottom:14px; z-index:9999; width: min(92%, var(--maxw)); }
+        .floating a { display:block; text-align:center; padding:16px; background:#06C755; color:#fff; text-decoration:none; border-radius:14px; font-weight:800; box-shadow:0 12px 28px rgba(6,199,85,.45); }
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+
+        <!-- รูปที่ 1: คลิกแล้วไป LINE -->
+        <a class="card click-img" href="https://lin.ee/4lvjMW3" target="_blank" rel="noopener" aria-label="ติดต่อ LINE">
+        <img src="img/om11.jpg" width="607" height="607" alt="">
+        </a>
+
+        <!-- รูปที่ 2: คลิกแล้วไป LINE -->
+        <a class="card click-img" href="https://lin.ee/4lvjMW3" target="_blank" rel="noopener" aria-label="แชท LINE ตอนนี้">
+               <img src="img/om12.jpg" width="801" height="799" alt="">
+        </a>
+
+        <!-- กล่องข้อความ + ปุ่ม -->
+        <div class="content">
+            <h1>ค่าน้ำ ค่าไฟ ค่าเทอม แบกจนท้อ? ให้ “สินเชื่อธนาคารประชาชน” ช่วย!</h1>
+            <ul class="bullets">
+                <li>วงเงินอนุมัติสูงสุด <b>200,000 บาท</b></li>
+                <li>ดอกเบี้ยเริ่มต้น <b>0.50% ต่อเดือน</b> (Flat Rate)</li>
+                <li>ผ่อนได้นานสูงสุด <b>8 ปี</b></li>
+            </ul>
+            <p style="margin-top:10px;font-size:.95rem;color:#444;">
+                *เงื่อนไขเป็นไปตามที่ธนาคารกำหนด<br>
+                **อัตราดอกเบี้ยที่แท้จริง 0.50%–1.00% ต่อเดือน (Flat) เทียบเท่า Effective Rate 10.80%–21.60% ต่อปี<br>
+                ⚠️ รู้ก่อนกู้: กู้เท่าที่จำเป็นและชำระคืนไหว
+            </p>
+            <a class="cta" href="https://lin.ee/4lvjMW3" target="_blank" rel="noopener">แชท LINE เพื่อขอรายละเอียด / สมัคร</a>
+        </div>
+    </div>
+
+    <!-- ปุ่ม LINE ลอยด้านล่าง (กดได้ทุกจุดของหน้า) -->
+    <div class="floating">
+        <a href="https://lin.ee/4lvjMW3" target="_blank" rel="noopener" aria-label="ติดต่อผ่าน LINE ตอนนี้">
+            ติดต่อเจ้าหน้าที่ทาง LINE
+        </a>
+    </div>
+
+</body>
